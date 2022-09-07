@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import { useState } from 'react';
+import MultiDataNested from './MultiDataNested/MultiDataNested';
 
 function App() {
   const [likeColor, setLikeColor] = useState("");
@@ -13,21 +13,10 @@ function App() {
   }
   return (
     <div className="App">
+      <p>Implement Facebook Like button:</p>
       <ThumbUpAltIcon onClick={handleLike} color={likeColor}/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <hr />
+    <MultiDataNested/>
     </div>
   );
 }
