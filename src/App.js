@@ -2,6 +2,7 @@ import './App.css';
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import { useState } from 'react';
 import MultiDataNested from './MultiDataNested/MultiDataNested';
+import DataLoadReturn from './DataLoadReturn/DataLoadReturn';
 
 function App() {
   const [likeColor, setLikeColor] = useState("");
@@ -17,6 +18,8 @@ function App() {
       <ThumbUpAltIcon onClick={handleLike} color={likeColor}/>
       <hr />
     <MultiDataNested/>
+    <hr />
+    <DataLoadReturn/>
     </div>
   );
 }
