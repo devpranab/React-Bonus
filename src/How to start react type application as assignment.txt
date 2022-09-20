@@ -1,0 +1,8 @@
+How to start react type application as assignment:
+
+step1: understand full website
+step2: think as user
+step3: indentify component
+step4: make component tree with thinking route
+step5: data passing-main comp to child(by props/useParams()/local storage/context api/redux)
+step6: 
