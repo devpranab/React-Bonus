@@ -3,6 +3,7 @@ import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import { useState } from 'react';
 import MultiDataNested from './MultiDataNested/MultiDataNested';
 import DataLoadReturn from './DataLoadReturn/DataLoadReturn';
+import ConditionalRender from './ConditionalRender/ConditionalRender';
 
 function App() {
   const [likeColor, setLikeColor] = useState("");
@@ -20,6 +21,7 @@ function App() {
     <MultiDataNested/>
     <hr />
     <DataLoadReturn/>
+    <ConditionalRender/>
     </div>
   );
 }
