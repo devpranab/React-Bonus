@@ -4,6 +4,7 @@ import { useState } from 'react';
 import MultiDataNested from './MultiDataNested/MultiDataNested';
 import DataLoadReturn from './DataLoadReturn/DataLoadReturn';
 import ConditionalRender from './ConditionalRender/ConditionalRender';
+import Storage from './Storage/Storage';
 
 function App() {
   const [likeColor, setLikeColor] = useState("");
@@ -22,6 +23,7 @@ function App() {
     <hr />
     <DataLoadReturn/>
     <ConditionalRender/>
+    <Storage/>
     </div>
   );
 }

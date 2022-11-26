@@ -20,6 +20,3 @@ export default User;
 
 //short in one line (ternery operator)
 //const greet = familiar ? <p>Good morning!</p> : <p>Good night!</p>;
-
-// git commit -m "Explore more about Conditional Rendering"
-// git push -u origin main
